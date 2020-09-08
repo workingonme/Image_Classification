@@ -12,7 +12,7 @@ import torchvision
 from torchvision import datasets, models, transforms
 import PIL
 
-export_file_url = 's3://image-classification-workingonme/full_model_export1.pkl'
+export_file_url = 'https://image-classification-workingonme.s3.eu-west-2.amazonaws.com/full_model_export1.pkl'
 export_file_name = 'full_model_export1.pkl'
 
 data_transforms_with_normalization = {
