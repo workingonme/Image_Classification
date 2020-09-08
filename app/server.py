@@ -12,7 +12,7 @@ import torchvision
 from torchvision import datasets, models, transforms
 import PIL
 
-export_file_url = 'https://aidris559lab4.s3.amazonaws.com/Trained_Model_For_Ant_And_Bees/full_model_export1.pkl'
+export_file_url = 's3://image-classification-workingonme/full_model_export1.pkl'
 export_file_name = 'full_model_export1.pkl'
 
 data_transforms_with_normalization = {
@@ -30,7 +30,7 @@ data_transforms_with_normalization = {
     ]),
 }
 
-classes = ['ants', 'bees']
+classes = ['Allen', 'Haku', 'Jake', 'Kyoko', 'Robert', 'Saitama', 'Troy']
 path = Path(__file__).parent
 
 app = Starlette()
