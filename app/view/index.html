@@ -1,18 +1,28 @@
 <html lang='en'>
 <head>
+  <style>
+    body {
+      background-image: url('jasmine.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+  </style>
   <meta charset='utf-8'>
   <link rel='stylesheet' href='../static/style.css'>
   <script src='../static/client.js'></script>
 </head>
 <body>
 <div>
-  <div class='center'>
-    <div class='title'>Which character are you?</div>
+  <div class='center' style='background-color:white;'>
+    <h1 style="font-family:verdana;font-size: 300%;">Which character do you look most like?</h1>
     <p>
-    <div class='title'>(You'll probably need to google them)</div>
-    <p>
-      Are you <strong>Allen Walker, Haku Yuki, Jake the Dog, Kyoko Mogami, Robert McCall, Saitama</strong> or <strong>Troy Barnes</strong>
+      <h1 style="font-family:verdana;font-size: 200%;">(You'll probably need to google these characters ¯\_(ツ)_/¯ )</h1>
+    <p style="font-family:verdana;font-size: 150%;">
+      Do you look like <strong>Allen Walker, Haku Yuki, Jake the Dog, Kyoko Mogami, Robert McCall, Saitama</strong> or <strong>Troy Barnes</strong>?
     </p>
+  </div>
+  <div class='center'>
     <div class='content'>
       <div class='no-display'>
         <input id='file-input'
@@ -24,7 +34,7 @@
       </div>
       <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
       <div class='upload-label'>
-        <label id='upload-label'>No file chosen</label>
+        <label id='upload-label' style="color: white;">No file chosen</label>
       </div>
       <div>
         <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
