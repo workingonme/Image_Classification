@@ -22,4 +22,4 @@ Update the index.html to match the classes you are predicting.
 ### Step 5: Now Use Render
 When you visit the Render Website, create a new Web Service and link this project to Render. Every time you push to the master branch, a new deployment is done. And you get a link to the website once its done. Mine is at: https://ants-and-bees.onrender.com/
 
-** Note: Because Render charges for deployment after a while, I would only have this project up for a while after which it might not be available. Feel free to reach out if you encounter any bugs.
+** Note: Because Render charges for deployment after a while, I will only have this project up for a while after which it might not be available. Feel free to reach out if you encounter any bugs.
